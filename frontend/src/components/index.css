@@ -1,0 +1,10 @@
+.title {
+    color: #e1e1e1;
+    font-weight: 900;
+    font-size: large; /* Adjust the font size as needed */
+  }
+
+.subheading {
+    color: white;
+    font-size: 6rem;
+  }

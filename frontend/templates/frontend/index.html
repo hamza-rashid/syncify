@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Syncify</title>
+    {% load static %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="icon" href="{% static 'images/favicon.png' %}"  type="image/png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bricolage Grotesque:300,400,500,700&display=swap" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{% load static %}"
+    />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden; /* Disable scrolling outside of your content */
+      }
+
+      #app-container {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        background: linear-gradient(to bottom, #0074D9, #119BD6);
+      }
+
+      #main {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      #app {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app-container">
+      <div id="main">
+        <div id="app"></div>
+      </div>
+    </div>
+
+    <script src="{% static "frontend/main.js" %}"></script>
+  </body>
+</html>
