@@ -2,7 +2,7 @@
 
 ## Try It Out!
 
-You can experience Syncify in action by visiting [syncify.live](https://syncify.live). Create or join virtual rooms, sync playback, control your Spotify playlists, and collaborate with others seamlessly.
+You can experience Syncify in action by visiting [syncify.live](https://www.syncify.live). Create or join virtual rooms, sync playback, control your Spotify playlists, and collaborate with others seamlessly.
 
 ## Features
 
